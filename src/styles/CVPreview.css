@@ -1,0 +1,58 @@
+.cv-preview {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cv-preview h1 {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+  .general-info, .skills-section, 
+  .education-section, .experience-section, 
+  .projects-section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .skills-section ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills-section li {
+    background-color: #f0f0f0;
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+  
+  .education-item, .experience-item, .project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498db;
+  }
+  
+  .education-item h3, .experience-item h3, .project-item h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .education-item p, .experience-item p, .project-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .project-item strong {
+    color: #2c3e50;
+  }

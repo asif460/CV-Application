@@ -1,0 +1,55 @@
+/* styles/App.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.forms {
+  flex: 1;
+  min-width: 400px;
+}
+
+.cv-preview-container {
+  flex: 1;
+  min-width: 400px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+  }
+  
+  .forms, .cv-preview-container {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

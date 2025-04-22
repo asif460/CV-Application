@@ -1,0 +1,70 @@
+.experience-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .experience-section h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .experience-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .experience-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .experience-form input,
+  .experience-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .experience-form textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .experience-list {
+    margin-top: 20px;
+  }
+  
+  .experience-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .experience-item h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .experience-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .experience-buttons {
+    margin-top: 10px;
+  }
